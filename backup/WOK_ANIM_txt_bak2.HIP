@@ -28,7 +28,7 @@ set -g JOB = 'D:/VFX/WOK_ANIMATION/Wok_Animation'
 set -g PI = '3.1415926535897932384'
 set -g POSE = 'C:/Users/hrist/OneDrive/Music/Documents/houdini18.5/poselib'
 set -g _HIP_SAVEPLATFORM = 'windows-x86_64-cl19.16'
-set -g _HIP_SAVETIME = 'Tue Mar  2 23:43:19 2021'
+set -g _HIP_SAVETIME = 'Tue Mar  2 23:39:32 2021'
 set -g _HIP_SAVEVERSION = '18.5.408'
 set -g status = '0'
 
@@ -81,9 +81,9 @@ Content-Disposition: attachment; filename=".OPdummydefs"
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 
-SU5EWAAAAAAAAAAAAAAAAwAAAA1JTkRFWF9TRUNUSU9OAAAAAAAAANBgPr+HAAAAEmhvdWRpbmkuaGRhbGlicmFyeQAAANAAAAAAYD6/hwAAABJUb3AvbG9jYWxzY2hlZHVsZXIAAADQAAAl6mA+uMQAAAABAAAABQAAAA5sb2M=
+SU5EWAAAAAAAAAAAAAAAAwAAAA1JTkRFWF9TRUNUSU9OAAAAAAAAANBgPr6kAAAAEmhvdWRpbmkuaGRhbGlicmFyeQAAANAAAAAAYD6+pAAAABJUb3AvbG9jYWxzY2hlZHVsZXIAAADQAAAl6mA+uMQAAAABAAAABQAAAA5sb2M=
 YWxzY2hlZHVsZXIAAAAPTG9jYWwgU2NoZWR1bGVyAAAALG9wbGliOi9Ub3AvbG9jYWxzY2hlZHVsZXI/VG9wL2xvY2Fsc2NoZWR1bGVyAAAAElRPUF9sb2NhbHNjaGVkdWxlcgAAAAAAAAAAAAAAA1RvcAAAAAAAAAAAAAAAAAA=
-AAArc3VidHlwZT1sb2NhbHNjaGVkdWxlciBwZGd0eXBlPSdzY2hlZHVsZXInIAAAAAAAAAAAYD6/hwABAAAAAABJTkRYAAAAAAAAAAAAAAABAAAADERpYWxvZ1NjcmlwdAAAAAAAACW+X5Jb0iMgRGlhbG9nIHNjcmlwdCBmb3I=
+AAArc3VidHlwZT1sb2NhbHNjaGVkdWxlciBwZGd0eXBlPSdzY2hlZHVsZXInIAAAAAAAAAAAYD6+pAABAAAAAABJTkRYAAAAAAAAAAAAAAABAAAADERpYWxvZ1NjcmlwdAAAAAAAACW+X5Jb0iMgRGlhbG9nIHNjcmlwdCBmb3I=
 IGxvY2Fsc2NoZWR1bGVyIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkCgp7CiAgICBuYW1lCWxvY2Fsc2NoZWR1bGVyCiAgICBzY3JpcHQJbG9jYWxzY2hlZHVsZXIKICAgIGxhYmVsCSJMb2NhbCBTY2hlZHVsZXIiCgogICAgaGU=
 bHAgewoJIiIKICAgIH0KCiAgICBncm91cCB7CiAgICAgICAgbmFtZSAgICAiZm9sZGVyMCIKICAgICAgICBsYWJlbCAgICJTY2hlZHVsZXIiCgogICAgICAgIGdyb3Vwc2ltcGxlIHsKICAgICAgICAgICAgbmFtZSAgICAiZm8=
 bGRlcjQiCiAgICAgICAgICAgIGxhYmVsICAgIlBhdGhzIgoKICAgICAgICAgICAgcGFybSB7CiAgICAgICAgICAgICAgICBuYW1lICAgICJwZGdfd29ya2luZ2RpciIKICAgICAgICAgICAgICAgIGxhYmVsICAgIldvcmtpbmc=
@@ -3544,7 +3544,7 @@ inputs
 stat
 {
   create 1614724720
-  modify 1614724772
+  modify 1614724727
   author hrist@MEN7ALX
   access 0777
 }
@@ -4376,7 +4376,7 @@ inputs
 stat
 {
   create 1614724720
-  modify 1614724852
+  modify 1614724851
   author hrist@MEN7ALX
   access 0777
 }
@@ -4750,7 +4750,7 @@ inputs
 stat
 {
   create 1614718792
-  modify 1614724773
+  modify 1614724559
   author hrist@MEN7ALX
   access 0777
 }
@@ -5204,17 +5204,17 @@ viewposteffects  -D off -B off -t "" -f off -V off -S on -a 1 -b 5 -F 1 -g 1 -c 
 viewsnapshotoption -s off -h off -a 1 -v '*' -m 0 Build.panetab1.world
 cplane -o 0 0 0 -n 4.37114e-08 1 -4.37114e-08 -x 1.91069e-15 4.37114e-08 1 -l n -s 0.1 0.1 -c 40 40 -r 10 10 -d off Build.panetab1.world
 glcache -t 1634 -v 6553
-panepath -d Build -f -p panetab14 /obj/sphere_VASKOH/sphere1
-panepath -d Build -f -p panetab1 /obj/sphere_VASKOH/sphere1
-panepath -d Build -f -p panetab2 /obj/sphere_VASKOH/sphere1
-panepath -d Build -f -p panetab3 /obj/sphere_VASKOH/sphere1
-panepath -d Build -f -p panetab11 /obj/sphere_VASKOH/sphere1
-panepath -d Build -f -p panetab5 /obj/sphere_VASKOH/sphere1
-panepath -d Build -f -p panetab6 /obj/sphere_VASKOH/sphere1
+panepath -d Build -f -p panetab14 /obj/sphere_VASKOH
+panepath -d Build -f -p panetab1 /obj/sphere_VASKOH
+panepath -d Build -f -p panetab2 /obj/sphere_VASKOH
+panepath -d Build -f -p panetab3 /obj/sphere_VASKOH
+panepath -d Build -f -p panetab11 /obj/sphere_VASKOH
+panepath -d Build -f -p panetab5 /obj/sphere_VASKOH
+panepath -d Build -f -p panetab6 /obj/sphere_VASKOH
 panepath -d Build -f -p panetab12 /obj/
-panepath -d Build -f -p panetab7 /obj/sphere_VASKOH/sphere1
+panepath -d Build -f -p panetab7 /obj/sphere_VASKOH
 panepath -d Build -f -p panetab8 /obj/
-panepath -d Build -f -p panetab9 /obj/sphere_VASKOH/sphere1
+panepath -d Build -f -p panetab9 /obj/sphere_VASKOH
 panepath -d Build -f -p panetab10 /obj/
 desk set Build
 radial menu set main
@@ -5243,7 +5243,7 @@ texcache  -a off -r 2147483647 2147483647 -m 10000 -M 4085
 shopvisible +I3D +VMantra +RIB
 alias -u '__sesi_license__' '{
 verification_id      1b075173
-license_id           00000000043F8A80
+license_id           00000000043F8A10
 lock			HAw0At0m5a+@H9escN4NrZaw3JrDUmxSw2fOr529fNX4nwFDMvoWfaWiNuG9DIVBeEpAqRQdlv5Hi5
 data			000000010000000100000012000000052002077465MEN7ALX*.*.*.*1b075173
 product_id           Houdini-Master
