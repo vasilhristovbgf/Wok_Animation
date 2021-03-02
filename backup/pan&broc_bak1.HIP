@@ -28,7 +28,7 @@ set -g JOB = 'D:/VFX/WOK_ANIMATION/Wok_Animation'
 set -g PI = '3.1415926535897932384'
 set -g POSE = 'C:/Users/hrist/OneDrive/Music/Documents/houdini18.5/poselib'
 set -g _HIP_SAVEPLATFORM = 'windows-x86_64-cl19.16'
-set -g _HIP_SAVETIME = 'Wed Mar  3 00:51:27 2021'
+set -g _HIP_SAVETIME = 'Wed Mar  3 00:48:03 2021'
 set -g _HIP_SAVEVERSION = '18.5.408'
 set -g status = '0'
 
@@ -81,9 +81,9 @@ Content-Disposition: attachment; filename=".OPdummydefs"
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 
-SU5EWAAAAAAAAAAAAAAAAwAAAA1JTkRFWF9TRUNUSU9OAAAAAAAAANBgPs9/AAAAEmhvdWRpbmkuaGRhbGlicmFyeQAAANAAAAAAYD7PfwAAABJUb3AvbG9jYWxzY2hlZHVsZXIAAADQAAAl6mA+uMQAAAABAAAABQAAAA5sb2M=
+SU5EWAAAAAAAAAAAAAAAAwAAAA1JTkRFWF9TRUNUSU9OAAAAAAAAANBgPs6zAAAAEmhvdWRpbmkuaGRhbGlicmFyeQAAANAAAAAAYD7OswAAABJUb3AvbG9jYWxzY2hlZHVsZXIAAADQAAAl6mA+uMQAAAABAAAABQAAAA5sb2M=
 YWxzY2hlZHVsZXIAAAAPTG9jYWwgU2NoZWR1bGVyAAAALG9wbGliOi9Ub3AvbG9jYWxzY2hlZHVsZXI/VG9wL2xvY2Fsc2NoZWR1bGVyAAAAElRPUF9sb2NhbHNjaGVkdWxlcgAAAAAAAAAAAAAAA1RvcAAAAAAAAAAAAAAAAAA=
-AAArc3VidHlwZT1sb2NhbHNjaGVkdWxlciBwZGd0eXBlPSdzY2hlZHVsZXInIAAAAAAAAAAAYD7PfwABAAAAAABJTkRYAAAAAAAAAAAAAAABAAAADERpYWxvZ1NjcmlwdAAAAAAAACW+X5Jb0iMgRGlhbG9nIHNjcmlwdCBmb3I=
+AAArc3VidHlwZT1sb2NhbHNjaGVkdWxlciBwZGd0eXBlPSdzY2hlZHVsZXInIAAAAAAAAAAAYD7OswABAAAAAABJTkRYAAAAAAAAAAAAAAABAAAADERpYWxvZ1NjcmlwdAAAAAAAACW+X5Jb0iMgRGlhbG9nIHNjcmlwdCBmb3I=
 IGxvY2Fsc2NoZWR1bGVyIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkCgp7CiAgICBuYW1lCWxvY2Fsc2NoZWR1bGVyCiAgICBzY3JpcHQJbG9jYWxzY2hlZHVsZXIKICAgIGxhYmVsCSJMb2NhbCBTY2hlZHVsZXIiCgogICAgaGU=
 bHAgewoJIiIKICAgIH0KCiAgICBncm91cCB7CiAgICAgICAgbmFtZSAgICAiZm9sZGVyMCIKICAgICAgICBsYWJlbCAgICJTY2hlZHVsZXIiCgogICAgICAgIGdyb3Vwc2ltcGxlIHsKICAgICAgICAgICAgbmFtZSAgICAiZm8=
 bGRlcjQiCiAgICAgICAgICAgIGxhYmVsICAgIlBhdGhzIgoKICAgICAgICAgICAgcGFybSB7CiAgICAgICAgICAgICAgICBuYW1lICAgICJwZGdfd29ya2luZ2RpciIKICAgICAgICAgICAgICAgIGxhYmVsICAgIldvcmtpbmc=
@@ -340,7 +340,7 @@ inputs
 stat
 {
   create 1614728804
-  modify 1614729015
+  modify 1614728839
   author hrist@MEN7ALX
   access 0777
 }
@@ -1145,93 +1145,6 @@ Content-Type: text/plain
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/file1.init"
-Content-Type: text/plain
-
-type = file
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/file1.def"
-Content-Type: text/plain
-
-sopflags sopflags = 
-comment ""
-position -4.69127 -0.211893
-connectornextid 0
-flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
-outputsNamed3
-{
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create 1614729015
-  modify 1614729024
-  author hrist@MEN7ALX
-  access 0777
-}
-color UT_Color RGB 0.9 0.8 0.55 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/file1.chn"
-Content-Type: text/plain
-
-{
-    channel index {
-      lefttype = extend
-      righttype = extend
-      flags = 0
-      segment { length = 0 expr = $FF-ch(\"f1\") }
-    }
-  }
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/file1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-filemode	[ 0	locks=0 ]	(	"read"	)
-file	[ 0	locks=0 ]	(	"$HIP/01. INPUT GEO/Frying Pan/1/10262_12_Frying_Pan_max2011_v2_it2.obj"	)
-reload	[ 0	locks=0 ]	(	0	)
-objpattern	[ 0	locks=0 ]	(	*	)
-geodatapath	[ 0	locks=0 ]	(	""	)
-missingframe	[ 0	locks=0 ]	(	"error"	)
-loadtype	[ 0	locks=0 ]	(	"full"	)
-packedviewedit	[ 0	locks=0 ]	(	"unchanged"	)
-viewportlod	[ 0	locks=0 ]	(	"box"	)
-packexpanded	[ 0	locks=0 ]	(	"on"	)
-delayload	[ 0	locks=0 ]	(	"off"	)
-mkpath	[ 0	locks=0 ]	(	"on"	)
-cachesize	[ 0	locks=0 ]	(	0	)
-prefetch	[ 0	locks=0 ]	(	"off"	)
-f	[ 0	locks=0 ]	(	1	24	)
-index	[ 0	locks=0 ]	(	[ index	0 ] 	)
-wrap	[ 0	locks=0 ]	(	"cycle"	)
-retry	[ 0	locks=0 ]	(	0	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/file1.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/frying_pan.net"
 Content-Type: text/plain
 
@@ -1266,7 +1179,7 @@ inputs
 stat
 {
   create 1614728804
-  modify 1614729110
+  modify 1614728845
   author hrist@MEN7ALX
   access 0777
 }
@@ -1984,12 +1897,12 @@ version 0.8
 stdswitcher	[ 0	locks=0 ]	(	0	0	0	)
 xOrd	[ 0	locks=0 ]	(	"srt"	)
 rOrd	[ 0	locks=0 ]	(	"xyz"	)
-t	[ 0	locks=0 ]	(	0	0	8.4000000000000004	)
+t	[ 0	locks=0 ]	(	0	0	0	)
 r	[ 0	locks=0 ]	(	0	0	0	)
 s	[ 0	locks=0 ]	(	1	1	1	)
 p	[ 0	locks=0 ]	(	0	0	0	)
 pr	[ 0	locks=0 ]	(	0	0	0	)
-scale	[ 0	locks=0 ]	(	100	)
+scale	[ 0	locks=0 ]	(	1	)
 pre_xform	[ 0	locks=0 ]	(	0	)
 keeppos	[ 0	locks=0 ]	(	"off"	)
 childcomp	[ 0	locks=0 ]	(	"off"	)
@@ -2061,93 +1974,6 @@ vm_procuseroottransform	[ 0	locks=0 ]	(	"on"	)
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/brocolli.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/file1.init"
-Content-Type: text/plain
-
-type = file
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/file1.def"
-Content-Type: text/plain
-
-sopflags sopflags = 
-comment ""
-position -4.10438 -0.055803
-connectornextid 0
-flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
-outputsNamed3
-{
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create 1614729041
-  modify 1614729050
-  author hrist@MEN7ALX
-  access 0777
-}
-color UT_Color RGB 0.9 0.8 0.55 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/file1.chn"
-Content-Type: text/plain
-
-{
-    channel index {
-      lefttype = extend
-      righttype = extend
-      flags = 0
-      segment { length = 0 expr = $FF-ch(\"f1\") }
-    }
-  }
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/file1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-filemode	[ 0	locks=0 ]	(	"read"	)
-file	[ 0	locks=0 ]	(	"$HIP/01. INPUT GEO/Brocolli/1/model.obj"	)
-reload	[ 0	locks=0 ]	(	0	)
-objpattern	[ 0	locks=0 ]	(	*	)
-geodatapath	[ 0	locks=0 ]	(	""	)
-missingframe	[ 0	locks=0 ]	(	"error"	)
-loadtype	[ 0	locks=0 ]	(	"full"	)
-packedviewedit	[ 0	locks=0 ]	(	"unchanged"	)
-viewportlod	[ 0	locks=0 ]	(	"box"	)
-packexpanded	[ 0	locks=0 ]	(	"on"	)
-delayload	[ 0	locks=0 ]	(	"off"	)
-mkpath	[ 0	locks=0 ]	(	"on"	)
-cachesize	[ 0	locks=0 ]	(	0	)
-prefetch	[ 0	locks=0 ]	(	"off"	)
-f	[ 0	locks=0 ]	(	1	24	)
-index	[ 0	locks=0 ]	(	[ index	0 ] 	)
-wrap	[ 0	locks=0 ]	(	"cycle"	)
-retry	[ 0	locks=0 ]	(	0	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/file1.userdata"
 Content-Type: text/plain
 
 {
@@ -2486,7 +2312,7 @@ inputs
 stat
 {
   create 1614718792
-  modify 1614728887
+  modify 1614728885
   author hrist@MEN7ALX
   access 0777
 }
@@ -2837,7 +2663,7 @@ viewroto  -S file -F '' -C '' -a on -o 0 0 -s 1 1 -B 1 -e off back Build.panetab
 viewroto  -S file -F '' -C '' -a on -o 0 0 -s 1 1 -B 1 -e off left Build.panetab1.world.persp1
 viewroto  -S file -F '$HH/pic/uvgrid_grey.pic' -C '' -a on -o 0 0 -s 1 1 -B 0.2 -e off uv Build.panetab1.world.persp1
 viewroto  -S file -F '' -C '' -a on -o 0 0 -s 1 1 -B 1 -e off image Build.panetab1.world.persp1
-viewtransform Build.panetab1.world.persp1 version ( 3 )  flag ( Fx )  orthowidth ( 0.252917 )  focal ( 50 )  aperture ( 41.4214 )  window ( 0 1 0 1 )  winroll ( 0 )  clear ( 1 )  nearfar ( 3.04676e-05 284.836 )  aspect ( 1.33333 )  pixelaspect ( 1 )  txyz ( -41.3253 10.078 216.108 )  pxyz ( 0.231872 -2.3482 -5.21184 )  rotation ( 0.525464 -0.115948 0.842878 3.36954e-07 0.99067 0.136279 -0.850816 -0.0716095 0.520562  )  homedistance ( 0.357399 )  homeadjboxwidth ( 0.252917 )  homeorthowidth ( 0.252917 )  homeradius ( 0.284479 )  homeaxis ( 0 )  homecustom ( 0.707107 -0.353553 0.612372 0 0.866025 0.5 -0.707107 -0.353553 0.612372  )  adjustlimits ( 1 )  
+viewtransform Build.panetab1.world.persp1 version ( 3 )  flag ( Fx )  orthowidth ( 0.252917 )  focal ( 50 )  aperture ( 41.4214 )  window ( 0 1 0 1 )  winroll ( 0 )  clear ( 1 )  nearfar ( 3.04676e-05 284.836 )  aspect ( 1.33333 )  pixelaspect ( 1 )  txyz ( -5.60433 -0.106002 47.6251 )  pxyz ( 0.683984 1.7631 5.01947 )  rotation ( -0.937766 -0.1401 0.317751 -6.34478e-07 0.915007 0.403436 -0.347266 0.378329 -0.858064  )  homedistance ( 0.357399 )  homeadjboxwidth ( 0.252917 )  homeorthowidth ( 0.252917 )  homeradius ( 0.284479 )  homeaxis ( 0 )  homecustom ( 0.707107 -0.353553 0.612372 0 0.866025 0.5 -0.707107 -0.353553 0.612372  )  adjustlimits ( 1 )  
 viewcamera -c '' Build.panetab1.world.persp1
 vieworthogrid -d off -o 0 0 0 -s 0.2 0.2 -r 5 5 -R 1 Build.panetab1.world.persp1
 viewuvgrid -r on -s 0.1 0.1 -P off -S 64 64 -O 0 0 -C on -t on Build.panetab1.world.persp1
@@ -2979,7 +2805,7 @@ texcache  -a off -r 2147483647 2147483647 -m 10000 -M 4085
 shopvisible +I3D +VMantra +RIB
 alias -u '__sesi_license__' '{
 verification_id      1b075173
-license_id           00000000043F8A80
+license_id           00000000043FA510
 lock			HAw0At0m5a+@H9escN4NrZaw3JrDUmxSw2fOr529fNX4nwFDMvoWfaWiNuG9DIVBeEpAqRQdlv5Hi5
 data			000000010000000100000012000000052002077465MEN7ALX*.*.*.*1b075173
 product_id           Houdini-Master
