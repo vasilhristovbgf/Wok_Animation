@@ -5,8 +5,8 @@ Content-Type: multipart/mixed; boundary="HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F4
 Content-Disposition: attachment; filename=".start"
 Content-Type: text/plain
 
-fplayback -i on -r on -f 1 -e on -h on -t on -a on -k on -s 1
-tcur 5.25
+fplayback -i on -r off -f 1 -e on -h on -t on -a on -k on -s 1
+tcur 0
 fps 24
 tset 0 10
 frange 1 240
@@ -22,14 +22,14 @@ set -g ACTIVETAKE = 'Main'
 set -g E = '2.7182818284590452354'
 set -g EYE = 'stereo'
 set -g HANDLE_STATUS = '-1'
-set -g HIP = 'D:/_HoudiniProjects/Wok_Animation'
-set -g HIPFILE = 'D:/_HoudiniProjects/Wok_Animation/pan&broc.HIP'
+set -g HIP = 'D:/VFX/WOK_ANIMATION/Wok_Animation'
+set -g HIPFILE = 'D:/VFX/WOK_ANIMATION/Wok_Animation/pan&broc.HIP'
 set -g HIPNAME = 'pan&broc'
 set -g JOB = 'D:/VFX/WOK_ANIMATION/Wok_Animation'
 set -g PI = '3.1415926535897932384'
 set -g POSE = 'C:/Users/hrist/OneDrive/Music/Documents/houdini18.5/poselib'
 set -g _HIP_SAVEPLATFORM = 'windows-x86_64-cl19.16'
-set -g _HIP_SAVETIME = 'Wed Mar  3 01:03:56 2021'
+set -g _HIP_SAVETIME = 'Wed Mar  3 00:59:55 2021'
 set -g _HIP_SAVEVERSION = '18.5.408'
 set -g status = '0'
 
@@ -104,26 +104,26 @@ Content-Disposition: attachment; filename=".OPdummydefs"
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 
-SU5EWAAAAAAAAAAAAAAADgAAAA1JTkRFWF9TRUNUSU9OAAAAAAAAB1dgPtJsAAAAEmhvdWRpbmkuaGRhbGlicmFyeQAAB1cAAAAAYD7SbAAAABBTb3AvYXR0cmliZGVsZXRlAAAHVwAADLtgPtHaAAAAFFNvcC9hdHRyaWJub2k=
-c2U6OjIuMAAAFBIAAGDVYD7R2gAAABFTb3AvYXR0cmlid3JhbmdsZQAAdOcAAB/HYD7R2gAAAAhTb3AvYmVuZAAAlK4AAFv0YD7R2gAAABZTb3AvZGVmb3JtYXRpb253cmFuZ2xlAADwogAAFkdgPtHaAAAAEFZvcC9pbXBvcnQ=
-ZGV0YWlsAAEG6QAADtZgPtHaAAAAClZvcC9pbnZlcnQAARW/AAAE5GA+0doAAAASVG9wL2xvY2Fsc2NoZWR1bGVyAAEaowAAJepgPtHaAAAADFZvcC9tdWxjb25zdAABQI0AAAXEYD7R2gAAABxWb3AvdW5pZmllZG5vaXNlX3M=
-dGF0aWM6OjMuMAABRlEAAEdnYD7R2gAAAA1Wb3AvdmVjdG9odmVjAAGNuAAAAqZgPtHaAAAADVZvcC92ZWN0b21hdHgAAZBeAAACvmA+0doAAAAMAAAABAAAAAxhdHRyaWJkZWxldGUAAAAQQXR0cmlidXRlIERlbGV0ZQAAACg=
-b3BsaWI6L1NvcC9hdHRyaWJkZWxldGU/U29wL2F0dHJpYmRlbGV0ZQAAABBTT1BfYXR0cmliZGVsZXRlAAAAAAAAAAAAAAADU29wAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACYD7SbAEBAAAAAAQAAAAQYXR0cmlibm9pc2U6OjI=
+SU5EWAAAAAAAAAAAAAAADgAAAA1JTkRFWF9TRUNUSU9OAAAAAAAAB1dgPtF7AAAAEmhvdWRpbmkuaGRhbGlicmFyeQAAB1cAAAAAYD7RewAAABBTb3AvYXR0cmliZGVsZXRlAAAHVwAADLtgPtDKAAAAFFNvcC9hdHRyaWJub2k=
+c2U6OjIuMAAAFBIAAGDVYD7QygAAABFTb3AvYXR0cmlid3JhbmdsZQAAdOcAAB/HYD7QygAAAAhTb3AvYmVuZAAAlK4AAFv0YD7RAgAAABZTb3AvZGVmb3JtYXRpb253cmFuZ2xlAADwogAAFkdgPtECAAAAEFZvcC9pbXBvcnQ=
+ZGV0YWlsAAEG6QAADtZgPtDKAAAAClZvcC9pbnZlcnQAARW/AAAE5GA+0QIAAAASVG9wL2xvY2Fsc2NoZWR1bGVyAAEaowAAJepgPrjEAAAADFZvcC9tdWxjb25zdAABQI0AAAXEYD7RAgAAABxWb3AvdW5pZmllZG5vaXNlX3M=
+dGF0aWM6OjMuMAABRlEAAEdnYD7QygAAAA1Wb3AvdmVjdG9odmVjAAGNuAAAAqZgPtDKAAAADVZvcC92ZWN0b21hdHgAAZBeAAACvmA+0QIAAAAMAAAABAAAAAxhdHRyaWJkZWxldGUAAAAQQXR0cmlidXRlIERlbGV0ZQAAACg=
+b3BsaWI6L1NvcC9hdHRyaWJkZWxldGU/U29wL2F0dHJpYmRlbGV0ZQAAABBTT1BfYXR0cmliZGVsZXRlAAAAAAAAAAAAAAADU29wAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACYD7RewEBAAAAAAQAAAAQYXR0cmlibm9pc2U6OjI=
 LjAAAAAPQXR0cmlidXRlIE5vaXNlAAAAMG9wbGliOi9Tb3AvYXR0cmlibm9pc2U6OjIuMD9Tb3AvYXR0cmlibm9pc2U6OjIuMAAAAA9TT1BfYXR0cmlibm9pc2UAAAAAAAAAAAAAAANTb3AAAAAAAAAAAAAAAAAAAAAAAAAAAQA=
-AAABYD7SbAEBAAAAAAQAAAANYXR0cmlid3JhbmdsZQAAABFBdHRyaWJ1dGUgV3JhbmdsZQAAACpvcGxpYjovU29wL2F0dHJpYndyYW5nbGU/U29wL2F0dHJpYndyYW5nbGUAAAARU09QX2F0dHJpYndyYW5nbGUAAAAAAAAAAAA=
-AAADU29wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEYD7SbAEBAAAAAAQAAAAEYmVuZAAAAARCZW5kAAAAGG9wbGliOi9Tb3AvYmVuZD9Tb3AvYmVuZAAAAAhTT1BfYmVuZAAAAAAAAAAAAAAAA1NvcAAAAAAAAAAAAAAAAAAAAAA=
-AAAAAQAAAAJgPtJsAQEAAAAABAAAABJkZWZvcm1hdGlvbndyYW5nbGUAAAATRGVmb3JtYXRpb24gV3JhbmdsZQAAADRvcGxpYjovU29wL2RlZm9ybWF0aW9ud3JhbmdsZT9Tb3AvZGVmb3JtYXRpb253cmFuZ2xlAAAAFlNPUF8=
-ZGVmb3JtYXRpb253cmFuZ2xlAAAAAAAAAAAAAAADU29wAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEYD7SbAEBAAAAAAUAAAAMaW1wb3J0ZGV0YWlsAAAAF0ltcG9ydCBEZXRhaWwgQXR0cmlidXRlAAAAKG9wbGliOi9Wb3AvaW0=
-cG9ydGRldGFpbD9Wb3AvaW1wb3J0ZGV0YWlsAAAAD1ZPUF9pbXBvcnRwb2ludAAAAAAAAAAAAAAAA1ZvcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2A+0mwBAQAAAAgAAAAABAAAAAZpbnZlcnQAAAAGSW52ZXJ0AAAAHG9wbGk=
-YjovVm9wL2ludmVydD9Wb3AvaW52ZXJ0AAAAClZPUF9pbnZlcnQAAAAAAAAAAAAAAANWb3AAAAADdm9wAAAABlZPUGFsbAAAAAAAAAAAAAAAAAAAAABgPtJsAAEAAAAABQAAAA5sb2NhbHNjaGVkdWxlcgAAAA9Mb2NhbCBTY2g=
+AAABYD7RewEBAAAAAAQAAAANYXR0cmlid3JhbmdsZQAAABFBdHRyaWJ1dGUgV3JhbmdsZQAAACpvcGxpYjovU29wL2F0dHJpYndyYW5nbGU/U29wL2F0dHJpYndyYW5nbGUAAAARU09QX2F0dHJpYndyYW5nbGUAAAAAAAAAAAA=
+AAADU29wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEYD7RewEBAAAAAAQAAAAEYmVuZAAAAARCZW5kAAAAGG9wbGliOi9Tb3AvYmVuZD9Tb3AvYmVuZAAAAAhTT1BfYmVuZAAAAAAAAAAAAAAAA1NvcAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAQAAAAJgPtF7AQEAAAAABAAAABJkZWZvcm1hdGlvbndyYW5nbGUAAAATRGVmb3JtYXRpb24gV3JhbmdsZQAAADRvcGxpYjovU29wL2RlZm9ybWF0aW9ud3JhbmdsZT9Tb3AvZGVmb3JtYXRpb253cmFuZ2xlAAAAFlNPUF8=
+ZGVmb3JtYXRpb253cmFuZ2xlAAAAAAAAAAAAAAADU29wAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEYD7RewEBAAAAAAUAAAAMaW1wb3J0ZGV0YWlsAAAAF0ltcG9ydCBEZXRhaWwgQXR0cmlidXRlAAAAKG9wbGliOi9Wb3AvaW0=
+cG9ydGRldGFpbD9Wb3AvaW1wb3J0ZGV0YWlsAAAAD1ZPUF9pbXBvcnRwb2ludAAAAAAAAAAAAAAAA1ZvcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2A+0XsBAQAAAAgAAAAABAAAAAZpbnZlcnQAAAAGSW52ZXJ0AAAAHG9wbGk=
+YjovVm9wL2ludmVydD9Wb3AvaW52ZXJ0AAAAClZPUF9pbnZlcnQAAAAAAAAAAAAAAANWb3AAAAADdm9wAAAABlZPUGFsbAAAAAAAAAAAAAAAAAAAAAFgPtF7AAEAAAAABQAAAA5sb2NhbHNjaGVkdWxlcgAAAA9Mb2NhbCBTY2g=
 ZWR1bGVyAAAALG9wbGliOi9Ub3AvbG9jYWxzY2hlZHVsZXI/VG9wL2xvY2Fsc2NoZWR1bGVyAAAAElRPUF9sb2NhbHNjaGVkdWxlcgAAAAAAAAAAAAAAA1RvcAAAAAAAAAAAAAAAAAAAACtzdWJ0eXBlPWxvY2Fsc2NoZWR1bGU=
-ciBwZGd0eXBlPSdzY2hlZHVsZXInIAAAAAAAAAAAYD7SbAABAAAAAAAAAAAEAAAACG11bGNvbnN0AAAAEU11bHRpcGx5IENvbnN0YW50AAAAIG9wbGliOi9Wb3AvbXVsY29uc3Q/Vm9wL211bGNvbnN0AAAADFZPUF9tdWxjb24=
-c3QAAAAAAAAAAAAAAANWb3AAAAADdm9wAAAABlZPUGFsbAAAAAAAAAABKgAAAAAAAAAAYD7SbAABAAAAAAUAAAAYdW5pZmllZG5vaXNlX3N0YXRpYzo6My4wAAAAFlVuaWZpZWQgTm9pc2UgLSBTdGF0aWMAAABAb3BsaWI6L1Y=
-b3AvdW5pZmllZG5vaXNlX3N0YXRpYzo6My4wP1ZvcC91bmlmaWVkbm9pc2Vfc3RhdGljOjozLjAAAAAQVk9QX3VuaWZpZWRub2lzZQAAAAAAAAAAAAAAA1ZvcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHGA+0mwAAQAAAAAEAAA=
+ciBwZGd0eXBlPSdzY2hlZHVsZXInIAAAAAAAAAAAYD7RewABAAAAAAAAAAAEAAAACG11bGNvbnN0AAAAEU11bHRpcGx5IENvbnN0YW50AAAAIG9wbGliOi9Wb3AvbXVsY29uc3Q/Vm9wL211bGNvbnN0AAAADFZPUF9tdWxjb24=
+c3QAAAAAAAAAAAAAAANWb3AAAAADdm9wAAAABlZPUGFsbAAAAAAAAAABKgAAAAAAAAAAYD7RewABAAAAAAUAAAAYdW5pZmllZG5vaXNlX3N0YXRpYzo6My4wAAAAFlVuaWZpZWQgTm9pc2UgLSBTdGF0aWMAAABAb3BsaWI6L1Y=
+b3AvdW5pZmllZG5vaXNlX3N0YXRpYzo6My4wP1ZvcC91bmlmaWVkbm9pc2Vfc3RhdGljOjozLjAAAAAQVk9QX3VuaWZpZWRub2lzZQAAAAAAAAAAAAAAA1ZvcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHGA+0XsAAQAAAAAEAAA=
 AAQAAAAJdmVjdG9odmVjAAAAEVZlY3RvciB0byBWZWN0b3I0AAAAIm9wbGliOi9Wb3AvdmVjdG9odmVjP1ZvcC92ZWN0b2h2ZWMAAAANVk9QX3ZlY3RvaHZlYwAAAAAAAAAAAAAAA1ZvcAAAAAN2b3AAAAAGVk9QYWxsAAAAAAA=
-AAAAAAAAAAAAAABgPtJsAAEAAAAABAAAAAl2ZWN0b21hdHgAAAARVmVjdG9yIHRvIE1hdHJpeDMAAAAib3BsaWI6L1ZvcC92ZWN0b21hdHg/Vm9wL3ZlY3RvbWF0eAAAAA1WT1BfdmVjdG9tYXR4AAAAAAAAAAAAAAADVm9wAAA=
-AAN2b3AAAAAGVk9QYWxsAAAAAAAAAAEqAAAAAAAAAABgPtJsAAEASU5EWAAAAAAAAAAAAAAAAgAAAAhDb250ZW50cwAAAAAAAABXYD7R2gAAAAxEaWFsb2dTY3JpcHQAAABXAAAMIF9QfRwwNzA3MDcwMDAwMDEwMDAwMDAwMDA=
-NjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTA3MzIwMDAwMTMwMDAwMDAwMDAwMFRSQUlMRVIhISEAIyBEaWFsb2cgc2NyaXB0IGZvciBhdHRyaWJkZWxldGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQKCnsKICA=
+AAAAAAAAAAAAAABgPtF7AAEAAAAABAAAAAl2ZWN0b21hdHgAAAARVmVjdG9yIHRvIE1hdHJpeDMAAAAib3BsaWI6L1ZvcC92ZWN0b21hdHg/Vm9wL3ZlY3RvbWF0eAAAAA1WT1BfdmVjdG9tYXR4AAAAAAAAAAAAAAADVm9wAAA=
+AAN2b3AAAAAGVk9QYWxsAAAAAAAAAAEqAAAAAAAAAABgPtF7AAEASU5EWAAAAAAAAAAAAAAAAgAAAAhDb250ZW50cwAAAAAAAABXYD7QygAAAAxEaWFsb2dTY3JpcHQAAABXAAAMIF9QfRwwNzA3MDcwMDAwMDEwMDAwMDAwMDA=
+NjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTAzMTIwMDAwMTMwMDAwMDAwMDAwMFRSQUlMRVIhISEAIyBEaWFsb2cgc2NyaXB0IGZvciBhdHRyaWJkZWxldGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQKCnsKICA=
 ICBuYW1lCWF0dHJpYmRlbGV0ZQogICAgc2NyaXB0CWF0dHJpYmRlbGV0ZQogICAgbGFiZWwJIkF0dHJpYnV0ZSBEZWxldGUiCgogICAgaGVscCB7CgkiIgogICAgfQoKICAgIGlucHV0bGFiZWwJMQkiR2VvbWV0cnkgdG8gUmU=
 bW92ZSBBdHRyaWJ1dGVzIGZyb20iCiAgICBpbnB1dGxhYmVsCTIJIlJlZmVyZW5jZSBHZW9tZXRyeSIKICAgIHBhcm10YWcgeyBpbnB1dGlzcmVmMiAxIH0KICAgIGlucHV0bGFiZWwJMwkiU3ViLU5ldHdvcmsgSW5wdXQgIzM=
 IgogICAgaW5wdXRsYWJlbAk0CSJTdWItTmV0d29yayBJbnB1dCAjNCIKCiAgICBwYXJtIHsKICAgICAgICBuYW1lICAgICJ1c2VyZWZlcmVuY2UiCiAgICAgICAgbGFiZWwgICAiUHJlcGVuZCB3aXRoIEF0dHJpYnV0ZXMgZnI=
@@ -148,7 +148,7 @@ YWJlbCAgICJEZXRhaWwgQXR0cmlidXRlcyIKICAgICAgICB0eXBlICAgIHN0cmluZwogICAgICAgIGRl
 Z2xlIHsKICAgICAgICAgICAgWyAib3BtZW51IC1sIGF0dHJpYnV0ZTEgZHRsZGVsIiBdCiAgICAgICAgfQogICAgICAgIHJhbmdlICAgeyAwIDEgfQogICAgICAgIHBhcm10YWcgeyAiYXV0b3Njb3BlIiAiMDAwMDAwMDAwMDA=
 MDAwMDAiIH0KICAgIH0KICAgIHBhcm0gewogICAgICAgIG5hbWUgICAgInVwZGF0ZXZhciIKICAgICAgICBsYWJlbCAgICJVcGRhdGUgTG9jYWwgVmFyaWFibGVzIgogICAgICAgIHR5cGUgICAgdG9nZ2xlCiAgICAgICAgZGU=
 ZmF1bHQgeyAib24iIH0KICAgICAgICByYW5nZSAgIHsgMCAxIH0KICAgICAgICBwYXJtdGFnIHsgImF1dG9zY29wZSIgIjAwMDAwMDAwMDAwMDAwMDAiIH0KICAgIH0KfQpJTkRYAAAAAAAAAAAAAAACAAAACENvbnRlbnRzAAA=
-AAAAAABXYD7R2gAAAAxEaWFsb2dTY3JpcHQAAABXAABgOl+SW9EwNzA3MDcwMDAwMDEwMDAwMDAwMDA2NjYwMDAwMDAwMDAwMDAwMDAwMDEwMDAwMDAxNDAxNzU1MDczMjAwMDAxMzAwMDAwMDAwMDAwVFJBSUxFUiEhIQAjIEQ=
+AAAAAABXYD7QygAAAAxEaWFsb2dTY3JpcHQAAABXAABgOl+SW9EwNzA3MDcwMDAwMDEwMDAwMDAwMDA2NjYwMDAwMDAwMDAwMDAwMDAwMDEwMDAwMDAxNDAxNzU1MDMxMjAwMDAxMzAwMDAwMDAwMDAwVFJBSUxFUiEhIQAjIEQ=
 aWFsb2cgc2NyaXB0IGZvciBhdHRyaWJub2lzZTo6Mi4wIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkCgp7CiAgICBuYW1lCWF0dHJpYm5vaXNlOjoyLjAKICAgIHNjcmlwdAlhdHRyaWJub2lzZTo6Mi4wOjoyLjAKICAgIGxhYmU=
 bAkiQXR0cmlidXRlIE5vaXNlIgoKICAgIGhlbHAgewoJIiIKICAgIH0KCiAgICBpbnB1dGxhYmVsCTEJIkdlb21ldHJ5IHRvIGFkZCBub2lzZSB0byIKICAgIGlucHV0bGFiZWwJMgkiU3ViLU5ldHdvcmsgSW5wdXQgIzIiCiA=
 ICAgaW5wdXRsYWJlbAkzCSJTdWItTmV0d29yayBJbnB1dCAjMyIKICAgIGlucHV0bGFiZWwJNAkiU3ViLU5ldHdvcmsgSW5wdXQgIzQiCiAgICBvdXRwdXRsYWJlbAkxCSJHZW9tZXRyeSB3aXRoIG5vaXNlIGFwcGxpZWQiCgo=
@@ -341,8 +341,8 @@ bWF4dmFsdWUiCiAgICAgICAgICAgIGxhYmVsICAgIk1heGltdW0iCiAgICAgICAgICAgIHR5cGUgICAg
 bWF4ID09IDAgfSIKICAgICAgICAgICAgcmFuZ2UgICB7IDAgMTAgfQogICAgICAgICAgICBwYXJtdGFnIHsgImF1dG9zY29wZSIgIjAwMDAwMDAwMDAwMDAwMDAiIH0KICAgICAgICAgICAgcGFybXRhZyB7ICJzY3JpcHRfY2E=
 bGxiYWNrX2xhbmd1YWdlIiAicHl0aG9uIiB9CiAgICAgICAgfQogICAgICAgIHBhcm0gewogICAgICAgICAgICBuYW1lICAgICJub3JtYWxpemUiCiAgICAgICAgICAgIGxhYmVsICAgIk1ha2UgVmVjdG9ycyBVbml0IExlbmc=
 dGgiCiAgICAgICAgICAgIHR5cGUgICAgdG9nZ2xlCiAgICAgICAgICAgIGRlZmF1bHQgeyAiMCIgfQogICAgICAgICAgICBoaWRld2hlbiAieyBhdHRyaWJ0eXBlICE9IHZlYyB9IgogICAgICAgICAgICBwYXJtdGFnIHsgInM=
-Y3JpcHRfY2FsbGJhY2tfbGFuZ3VhZ2UiICJweXRob24iIH0KICAgICAgICB9CiAgICB9Cgp9CklORFgAAAAAAAAAAAAAAAIAAAAIQ29udGVudHMAAAAAAAAAV2A+0doAAAAMRGlhbG9nU2NyaXB0AAAAVwAAHyxfUH0uMDcwNzA=
-NzAwMDAwMTAwMDAwMDAwMDY2NjAwMDAwMDAwMDAwMDAwMDAwMTAwMDAwMDE0MDE3NTUwNzMyMDAwMDEzMDAwMDAwMDAwMDBUUkFJTEVSISEhACMgRGlhbG9nIHNjcmlwdCBmb3IgYXR0cmlid3JhbmdsZSBhdXRvbWF0aWNhbGw=
+Y3JpcHRfY2FsbGJhY2tfbGFuZ3VhZ2UiICJweXRob24iIH0KICAgICAgICB9CiAgICB9Cgp9CklORFgAAAAAAAAAAAAAAAIAAAAIQ29udGVudHMAAAAAAAAAV2A+0MoAAAAMRGlhbG9nU2NyaXB0AAAAVwAAHyxfUH0uMDcwNzA=
+NzAwMDAwMTAwMDAwMDAwMDY2NjAwMDAwMDAwMDAwMDAwMDAwMTAwMDAwMDE0MDE3NTUwMzEyMDAwMDEzMDAwMDAwMDAwMDBUUkFJTEVSISEhACMgRGlhbG9nIHNjcmlwdCBmb3IgYXR0cmlid3JhbmdsZSBhdXRvbWF0aWNhbGw=
 eSBnZW5lcmF0ZWQKCnsKICAgIG5hbWUJYXR0cmlid3JhbmdsZQogICAgc2NyaXB0CWF0dHJpYndyYW5nbGUKICAgIGxhYmVsCSJBdHRyaWJ1dGUgV3JhbmdsZSIKCiAgICBoZWxwIHsKCSIiCiAgICB9CgogICAgaW5wdXRsYWI=
 ZWwJMQkiR2VvbWV0cnkgdG8gUHJvY2VzcyB3aXRoIFdyYW5nbGUiCiAgICBpbnB1dGxhYmVsCTIJIkFuY2lsbGFyeSBJbnB1dCwgcG9pbnQoMSwgLi4uKSB0byBBY2Nlc3MiCiAgICBpbnB1dGxhYmVsCTMJIkFuY2lsbGFyeSA=
 SW5wdXQsIHBvaW50KDIsIC4uLikgdG8gQWNjZXNzIgogICAgaW5wdXRsYWJlbAk0CSJBbmNpbGxhcnkgSW5wdXQsIHBvaW50KDMsIC4uLikgdG8gQWNjZXNzIgoKICAgIGdyb3VwIHsKICAgICAgICBuYW1lICAgICJmb2xkZXI=
@@ -405,7 +405,7 @@ ICAiT3V0cHV0IFNlbGVjdGlvbiBHcm91cCIKICAgICAgICAgICAgdHlwZSAgICBzdHJpbmcKICAgICAg
 MDAwMCIgfQogICAgICAgIH0KICAgICAgICBwYXJtIHsKICAgICAgICAgICAgbmFtZSAgICAidmV4X3ByZWNpc2lvbiIKICAgICAgICAgICAgbGFiZWwgICAiVkVYIFByZWNpc2lvbiIKICAgICAgICAgICAgdHlwZSAgICBzdHI=
 aW5nCiAgICAgICAgICAgIGRlZmF1bHQgeyAiYXV0byIgfQogICAgICAgICAgICBtZW51IHsKICAgICAgICAgICAgICAgICJhdXRvIiAgIkF1dG8iCiAgICAgICAgICAgICAgICAiMzIiICAgICIzMiBCaXQiCiAgICAgICAgICA=
 ICAgICAgIjY0IiAgICAiNjQgQml0IChFeHBlcmltZW50YWwpIgogICAgICAgICAgICB9CiAgICAgICAgICAgIHBhcm10YWcgeyAiYXV0b3Njb3BlIiAiMDAwMDAwMDAwMDAwMDAwMCIgfQogICAgICAgIH0KICAgIH0KCn0KSU4=
-RFgAAAAAAAAAAAAAAAIAAAAIQ29udGVudHMAAAAAAAAAV2A+0doAAAAMRGlhbG9nU2NyaXB0AAAAVwAAW1lfrhmCMDcwNzA3MDAwMDAxMDAwMDAwMDAwNjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTA3MzIwMDA=
+RFgAAAAAAAAAAAAAAAIAAAAIQ29udGVudHMAAAAAAAAAV2A+0QIAAAAMRGlhbG9nU2NyaXB0AAAAVwAAW1lfrhmCMDcwNzA3MDAwMDAxMDAwMDAwMDAwNjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTA0MDIwMDA=
 MDEzMDAwMDAwMDAwMDBUUkFJTEVSISEhACMgRGlhbG9nIHNjcmlwdCBmb3IgYmVuZCBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZAoKewogICAgbmFtZQliZW5kCiAgICBzY3JpcHQJYmVuZAogICAgbGFiZWwJQmVuZAoKICAgIGg=
 ZWxwIHsKCSIiCiAgICB9CiAgICBiaW5kaGFuZGxlIGJlbmQgYmVuZGNhcHR1cmUgImNhcHR1cmUiIGJlbmQgImludmlzaWJsZSgxKSIKICAgIGJpbmRoYW5kbGUgYmVuZG1vZGUgYmVuZGNhcHR1cmUgImNhcHR1cmUiIGJlbmQ=
 bW9kZSAiaW52aXNpYmxlKDEpIgogICAgYmluZGhhbmRsZSBkaXJ4IGJlbmRjYXB0dXJlICJjYXB0dXJlIiBkaXJ4ICJpbnZpc2libGUoMSkiCiAgICBiaW5kaGFuZGxlIGRpcnkgYmVuZGNhcHR1cmUgImNhcHR1cmUiIGRpcnk=
@@ -589,7 +589,7 @@ dHlwZSAgICB0b2dnbGUKICAgICAgICAgICAgZGVmYXVsdCB7ICJvbiIgfQogICAgICAgICAgICByYW5n
 ICAgICAgIH0KICAgICAgICBwYXJtIHsKICAgICAgICAgICAgbmFtZSAgICAiZGVyaXZhdGl2ZV9zdGVwc2l6ZSIKICAgICAgICAgICAgbGFiZWwgICAiU3RlcCBTaXplIgogICAgICAgICAgICB0eXBlICAgIGZsb2F0CiAgICA=
 ICAgICAgICBpbnZpc2libGUKICAgICAgICAgICAgZGVmYXVsdCB7ICIwLjAxIiB9CiAgICAgICAgICAgIHJhbmdlICAgeyAwISAxIH0KICAgICAgICAgICAgcGFybXRhZyB7ICJhdXRvc2NvcGUiICIwMDAwMDAwMDAwMDAwMDA=
 MCIgfQogICAgICAgICAgICBwYXJtdGFnIHsgInBhcm12b3AiICIxIiB9CiAgICAgICAgICAgIHBhcm10YWcgeyAic2hhZGVycGFybWNvbnRleHRzIiAiY3ZleCIgfQogICAgICAgIH0KICAgIH0KCn0KSU5EWAAAAAAAAAAAAAA=
-AAIAAAAIQ29udGVudHMAAAAAAAAAV2A+0doAAAAMRGlhbG9nU2NyaXB0AAAAVwAAFaxfUH0vMDcwNzA3MDAwMDAxMDAwMDAwMDAwNjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTA3MzIwMDAwMTMwMDAwMDAwMDA=
+AAIAAAAIQ29udGVudHMAAAAAAAAAV2A+0QIAAAAMRGlhbG9nU2NyaXB0AAAAVwAAFaxfUH0vMDcwNzA3MDAwMDAxMDAwMDAwMDAwNjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTA0MDIwMDAwMTMwMDAwMDAwMDA=
 MDBUUkFJTEVSISEhACMgRGlhbG9nIHNjcmlwdCBmb3IgZGVmb3JtYXRpb253cmFuZ2xlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkCgp7CiAgICBuYW1lCWRlZm9ybWF0aW9ud3JhbmdsZQogICAgc2NyaXB0CXZleGRlZm9ybQo=
 ICAgIGxhYmVsCSJEZWZvcm1hdGlvbiBXcmFuZ2xlIgoKICAgIGhlbHAgewoJIiIKICAgIH0KCiAgICBpbnB1dGxhYmVsCTEJIlN1Yi1OZXR3b3JrIElucHV0ICMxIgogICAgaW5wdXRsYWJlbAkyCSJTdWItTmV0d29yayBJbnA=
 dXQgIzIiCiAgICBpbnB1dGxhYmVsCTMJIlN1Yi1OZXR3b3JrIElucHV0ICMzIgogICAgaW5wdXRsYWJlbAk0CSJTdWItTmV0d29yayBJbnB1dCAjNCIKCiAgICBncm91cCB7CiAgICAgICAgbmFtZSAgICAiZm9sZGVyMCIKICA=
@@ -633,8 +633,8 @@ b3Njb3BlIiAiMDAwMDAwMDAwMDAwMDAwMCIgfQogICAgICAgIH0KICAgICAgICBwYXJtIHsKICAgICAg
 aCIKICAgICAgICAgICAgdHlwZSAgICBvcHBhdGgKICAgICAgICAgICAgZGVmYXVsdCB7ICIuIiB9CiAgICAgICAgICAgIHJhbmdlICAgeyAwIDEgfQogICAgICAgICAgICBwYXJtdGFnIHsgImF1dG9zY29wZSIgIjAwMDAwMDA=
 MDAwMDAwMDAwIiB9CiAgICAgICAgICAgIHBhcm10YWcgeyAib3ByZWxhdGl2ZSIgIi4iIH0KICAgICAgICB9CiAgICAgICAgcGFybSB7CiAgICAgICAgICAgIG5hbWUgICAgInZleF9vdXRwdXRtYXNrIgogICAgICAgICAgICA=
 bGFiZWwgICAiRXhwb3J0IFBhcmFtZXRlcnMiCiAgICAgICAgICAgIHR5cGUgICAgc3RyaW5nCiAgICAgICAgICAgIGRlZmF1bHQgeyAiKiIgfQogICAgICAgICAgICByYW5nZSAgIHsgMCAxIH0KICAgICAgICAgICAgcGFybXQ=
-YWcgeyAiYXV0b3Njb3BlIiAiMDAwMDAwMDAwMDAwMDAwMCIgfQogICAgICAgIH0KICAgIH0KCn0KSU5EWAAAAAAAAAAAAAAAAgAAAAhDb250ZW50cwAAAAAAAABXYD7R2gAAAAxEaWFsb2dTY3JpcHQAAABXAAAOO1Uulu0wNzA=
-NzA3MDAwMDAxMDAwMDAwMDAwNjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTA3MzIwMDAwMTMwMDAwMDAwMDAwMFRSQUlMRVIhISEAIyBEaWFsb2cgc2NyaXB0IGZvciBpbXBvcnRkZXRhaWwgYXV0b21hdGljYWw=
+YWcgeyAiYXV0b3Njb3BlIiAiMDAwMDAwMDAwMDAwMDAwMCIgfQogICAgICAgIH0KICAgIH0KCn0KSU5EWAAAAAAAAAAAAAAAAgAAAAhDb250ZW50cwAAAAAAAABXYD7QygAAAAxEaWFsb2dTY3JpcHQAAABXAAAOO1Uulu0wNzA=
+NzA3MDAwMDAxMDAwMDAwMDAwNjY2MDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMTQwMTc1NTAzMTIwMDAwMTMwMDAwMDAwMDAwMFRSQUlMRVIhISEAIyBEaWFsb2cgc2NyaXB0IGZvciBpbXBvcnRkZXRhaWwgYXV0b21hdGljYWw=
 bHkgZ2VuZXJhdGVkIDA0LzE1LzE1IDEyOjUwOjUzCgp7CiAgICBuYW1lCWltcG9ydGRldGFpbAogICAgc2NyaXB0CWltcG9ydHZlcnRleAogICAgbGFiZWwJIkltcG9ydCBEZXRhaWwgQXR0cmlidXRlIgoKICAgIGlucHV0CWY=
 bG9hdAlkZWZ2YWx1ZQkiT3V0cHV0IFR5cGUiCiAgICBpbnB1dAlzdHJpbmcJZmlsZQlGaWxlCiAgICBpbnB1dAlzdHJpbmcJYXR0cmlidXRlCUF0dHJpYnV0ZQogICAgb3V0cHV0CWZsb2F0CXJlc3VsdAlSZXN1bHQKICAgIG8=
 dXRwdXQJaW50CXN1Y2Nlc3MJU3VjY2VzcwogICAgaW5wdXRmbGFncwlkZWZ2YWx1ZQkwCiAgICBpbnB1dGZsYWdzCWZpbGUJMAogICAgaW5wdXRmbGFncwlhdHRyaWJ1dGUJMAogICAgc2lnbmF0dXJlCUZsb2F0CWRlZmF1bHQ=
@@ -998,7 +998,7 @@ inputs
 stat
 {
   create 1614728804
-  modify 1614729723
+  modify 1614729553
   author hrist@MEN7ALX
   access 0777
 }
@@ -2250,11 +2250,10 @@ Content-Type: text/plain
 sopflags sopflags = 
 comment ""
 position -7.29412 -3.28653
-connectornextid 2
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
+connectornextid 1
+flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
 outputsNamed3
 {
-1 "output1"
 }
 inputsNamed3
 {
@@ -2271,7 +2270,7 @@ override
 stat
 {
   create 1614729547
-  modify 1614729728
+  modify 1614729556
   author hrist@MEN7ALX
   access 0777
 }
@@ -2354,7 +2353,7 @@ inputs
 stat
 {
   create 1614729553
-  modify 1614729753
+  modify 1614729557
   author hrist@MEN7ALX
   access 0777
 }
@@ -2394,7 +2393,7 @@ Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_transfor
 Content-Type: text/plain
 
 comment ""
-position -3.3888 4.471
+position -1.6944 1.7884
 connectornextid 1
 flags =  lock off model off template off footprint off xray off bypass off display off render on highlight off unload off savedata off compress on colordefault on exposed on audio on export off
 outputsNamed3
@@ -2410,7 +2409,7 @@ inputs
 stat
 {
   create 1614729553
-  modify 1614729753
+  modify 1614729573
   author hrist@MEN7ALX
   access 0777
 }
@@ -2503,7 +2502,7 @@ Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave1.def"
 Content-Type: text/plain
 
 comment ""
-position -1.6944 3.5768
+position 0 0.8942
 connectornextid 1
 flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on audio off export off
 outputsNamed3
@@ -2519,7 +2518,7 @@ inputs
 stat
 {
   create 1614729553
-  modify 1614729753
+  modify 1614729562
   author hrist@MEN7ALX
   access 0777
 }
@@ -2598,9 +2597,9 @@ Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_add1.def
 Content-Type: text/plain
 
 comment ""
-position -3.3888 2.6826
+position -1.6944 0
 connectornextid 2
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on audio off export on
+flags =  lock off model off template off footprint off xray off bypass off display on render off highlight off unload off savedata off compress on colordefault on exposed on audio off export on
 outputsNamed3
 {
 }
@@ -2617,7 +2616,7 @@ inputs
 stat
 {
   create 1614729553
-  modify 1614729755
+  modify 1614729566
   author hrist@MEN7ALX
   access 0777
 }
@@ -2680,313 +2679,13 @@ Content-Type: text/plain
 0
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_transform2_clip1.init"
-Content-Type: text/plain
-
-type = channel
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_transform2_clip1.def"
-Content-Type: text/plain
-
-comment ""
-position -1.6944 1.7884
-connectornextid 1
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on audio off export off
-outputsNamed3
-{
-0 "output1"
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create 1614729751
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_transform2_clip1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-stdswitcher	[ 0	locks=0 ]	(	0	0	0	)
-showall	[ 0	locks=0 ]	(	"on"	)
-copytoexport	[ 0	locks=0 ]	(	0	)
-copyfromexport	[ 0	locks=0 ]	(	0	)
-updatealiases	[ 0	locks=0 ]	(	0	)
-sort	[ 0	locks=0 ]	(	0	)
-resetall	[ 0	locks=0 ]	(	0	)
-keypersample	[ 0	locks=0 ]	(	"off"	)
-adddeps	[ 0	locks=0 ]	(	"on"	)
-numchannels	[ 0	locks=0 ]	(	1	)
-range	[ 0	locks=0 ]	(	"value"	)
-start	[ 0	locks=0 ]	(	0	)
-end	[ 0	locks=0 ]	(	10	)
-rate	[ 0	locks=0 ]	(	24	)
-left	[ 0	locks=0 ]	(	"hold"	)
-right	[ 0	locks=0 ]	(	"hold"	)
-defval	[ 0	locks=0 ]	(	0	)
-scope	[ 0	locks=0 ]	(	*	)
-srselect	[ 0	locks=0 ]	(	"max"	)
-units	[ 0	locks=0 ]	(	"frames"	)
-timeslice	[ 0	locks=0 ]	(	"off"	)
-unload	[ 0	locks=0 ]	(	"off"	)
-export	[ 0	locks=0 ]	(	../..	)
-gcolor	[ 0	locks=0 ]	(	0	0.89999997615814209	0	)
-gcolorstep	[ 0	locks=0 ]	(	0.050000000000000003	)
-enable0	[ 0	locks=0 ]	(	"on"	)
-name0	[ 0	locks=0 ]	(	transform2:ry	)
-type0	[ 0	locks=0 ]	(	"float"	)
-rOrd0	[ 0	locks=0 ]	(	"xyz"	)
-size0	[ 0	locks=0 ]	(	1	)
-value0	[ 0	locks=0	autoscope=14	autosel=4294967295 ]	(	0	0	0	0	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_transform2_clip1.alias"
-Content-Type: text/plain
-
-chalias
-{
-	value0x ry
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_transform2_clip1.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_transform2_clip1.chop"
-Content-Type: text/plain
-
-5
-2
-0
-0
-1
-0
-0
-0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave2.init"
-Content-Type: text/plain
-
-type = wave
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave2.def"
-Content-Type: text/plain
-
-comment ""
-position 0 0.8942
-connectornextid 1
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on audio off export off
-outputsNamed3
-{
-0 "output1"
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create 1614729751
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave2.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-stdswitcher	[ 0	locks=0 ]	(	0	0	0	)
-wavetype	[ 0	locks=0 ]	(	"sin"	)
-period	[ 0	locks=0 ]	(	1	)
-phase	[ 0	locks=0 ]	(	0	)
-bias	[ 0	locks=0 ]	(	0	)
-offset	[ 0	locks=0 ]	(	0	)
-amp	[ 0	locks=0 ]	(	10	)
-decay	[ 0	locks=0 ]	(	0	)
-ramp	[ 0	locks=0 ]	(	0	)
-exprs	[ 0	locks=0 ]	(	0	)
-channelname	[ 0	locks=0 ]	(	"`run(\"chopls ../wave_transform2_clip1\")`"	)
-range	[ 0	locks=0 ]	(	"full"	)
-start	[ 0	locks=0 ]	(	0	)
-end	[ 0	locks=0 ]	(	10	)
-rate	[ 0	locks=0 ]	(	24	)
-left	[ 0	locks=0 ]	(	"cycle"	)
-right	[ 0	locks=0 ]	(	"cycle"	)
-defval	[ 0	locks=0 ]	(	0	)
-scope	[ 0	locks=0 ]	(	*	)
-srselect	[ 0	locks=0 ]	(	"max"	)
-units	[ 0	locks=0 ]	(	"seconds"	)
-timeslice	[ 0	locks=0 ]	(	"off"	)
-unload	[ 0	locks=0 ]	(	"off"	)
-export	[ 0	locks=0 ]	(	../..	)
-gcolor	[ 0	locks=0 ]	(	0	0.89999997615814209	0.44999998807907104	)
-gcolorstep	[ 0	locks=0 ]	(	0.050000000000000003	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave2.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave2.chop"
-Content-Type: text/plain
-
-5
-2
-0
-0
-1
-0
-0
-0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_add2.init"
-Content-Type: text/plain
-
-type = math
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_add2.def"
-Content-Type: text/plain
-
-comment ""
-position -1.6944 0
-connectornextid 2
-flags =  lock off model off template off footprint off xray off bypass off display on render off highlight off unload off savedata off compress on colordefault on exposed on audio off export on
-outputsNamed3
-{
-}
-inputsNamed3
-{
-0 	wave_transform2_clip1 0 1 "input1"
-1 	wave2 0 1 "input2"
-}
-inputs
-{
-0 	wave_transform2_clip1 0 1
-1 	wave2 0 1
-}
-stat
-{
-  create 1614729751
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_add2.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-stdswitcher	[ 0	locks=0 ]	(	0	0	0	0	)
-preop	[ 0	locks=0 ]	(	"off"	)
-chanop	[ 0	locks=0 ]	(	"off"	)
-chopop	[ 0	locks=0 ]	(	"add"	)
-postop	[ 0	locks=0 ]	(	"off"	)
-match	[ 0	locks=0 ]	(	"index"	)
-matchfailure	[ 0	locks=0 ]	(	"ignore"	)
-align	[ 0	locks=0 ]	(	"none"	)
-preoff	[ 0	locks=0 ]	(	0	)
-gain	[ 0	locks=0 ]	(	1	)
-postoff	[ 0	locks=0 ]	(	0	)
-fromrange	[ 0	locks=0 ]	(	0	1	)
-torange	[ 0	locks=0 ]	(	0	1	)
-scope	[ 0	locks=0 ]	(	*	)
-srselect	[ 0	locks=0 ]	(	"max"	)
-units	[ 0	locks=0 ]	(	"seconds"	)
-timeslice	[ 0	locks=0 ]	(	"off"	)
-unload	[ 0	locks=0 ]	(	"off"	)
-export	[ 0	locks=0 ]	(	../..	)
-gcolor	[ 0	locks=0 ]	(	0	0.89999997615814209	0.89999997615814209	)
-gcolorstep	[ 0	locks=0 ]	(	0.050000000000000003	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_add2.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/motionfx/wave_add2.chop"
-Content-Type: text/plain
-
-5
-2
-0
-0
-1
-0
-0
-0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/frying_pan/motionfx.order"
 Content-Type: text/plain
 
-6
+3
 wave_transform1_clip1
 wave1
 wave_add1
-wave_transform2_clip1
-wave2
-wave_add2
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/frying_pan/motionfx.net"
@@ -2995,106 +2694,15 @@ Content-Type: text/plain
 1
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/transform2.init"
-Content-Type: text/plain
-
-type = xform
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/transform2.def"
-Content-Type: text/plain
-
-sopflags sopflags = 
-comment ""
-position -8.38933 -5.10343
-connectornextid 1
-flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
-outputsNamed3
-{
-}
-inputsNamed3
-{
-0 	transform1 1 1 "input1"
-}
-inputs
-{
-0 	transform1 0 1
-}
-override
-{
-../motionfx/wave_add2 r 1
-}
-stat
-{
-  create 1614729723
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/transform2.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-group	[ 0	locks=0 ]	(	""	)
-grouptype	[ 0	locks=0 ]	(	"guess"	)
-xOrd	[ 0	locks=0 ]	(	"srt"	)
-rOrd	[ 0	locks=0 ]	(	"xyz"	)
-t	[ 0	locks=0 ]	(	0	0	0	)
-r	[ 0	locks=0 ]	(	0	0	0	)
-s	[ 0	locks=0 ]	(	1	1	1	)
-shear	[ 0	locks=0 ]	(	0	0	0	)
-scale	[ 0	locks=0 ]	(	1	)
-parmgroup_pivotxform	[ 0	locks=0 ]	(	0	)
-p	[ 0	locks=0 ]	(	0	0	0	)
-pr	[ 0	locks=0 ]	(	0	0	0	)
-parmgroup_prexform	[ 0	locks=0 ]	(	0	)
-prexform_xOrd	[ 0	locks=0 ]	(	"srt"	)
-prexform_rOrd	[ 0	locks=0 ]	(	"xyz"	)
-prexform_t	[ 0	locks=0 ]	(	0	0	0	)
-prexform_r	[ 0	locks=0 ]	(	0	0	0	)
-prexform_s	[ 0	locks=0 ]	(	1	1	1	)
-prexform_shear	[ 0	locks=0 ]	(	0	0	0	)
-movecentroid	[ 0	locks=0 ]	(	0	)
-attribs	[ 0	locks=0 ]	(	*	)
-updatenmls	[ 0	locks=0 ]	(	"off"	)
-updateaffectednmls	[ 0	locks=0 ]	(	"on"	)
-vlength	[ 0	locks=0 ]	(	"on"	)
-invertxform	[ 0	locks=0 ]	(	"off"	)
-addattrib	[ 0	locks=0 ]	(	"off"	)
-outputattrib	[ 0	locks=0 ]	(	xform	)
-outputmerge	[ 0	locks=0 ]	(	"post"	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/frying_pan/transform2.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/frying_pan.order"
 Content-Type: text/plain
 
-6
+5
 file1
 attribnoise1
 bend1
 transform1
 motionfx
-transform2
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/frying_pan.net"
@@ -3131,7 +2739,7 @@ inputs
 stat
 {
   create 1614728804
-  modify 1614729797
+  modify 1614729571
   author hrist@MEN7ALX
   access 0777
 }
@@ -3948,7 +3556,7 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment ""
-position -5.79878 0.838397
+position -4.10438 -0.055803
 connectornextid 1
 flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
 outputsNamed3
@@ -3964,7 +3572,7 @@ inputs
 stat
 {
   create 1614729041
-  modify 1614729797
+  modify 1614729575
   author hrist@MEN7ALX
   access 0777
 }
@@ -4036,12 +3644,11 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment ""
-position -6.0095 -0.1616
-connectornextid 2
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
+position -4.3151 -1.0558
+connectornextid 1
+flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
 outputsNamed3
 {
-1 "output1"
 }
 inputsNamed3
 {
@@ -4054,7 +3661,7 @@ inputs
 stat
 {
   create 1614729571
-  modify 1614729797
+  modify 1614729594
   author hrist@MEN7ALX
   access 0777
 }
@@ -4087,7 +3694,7 @@ grouptype	[ 0	locks=0 ]	(	"guess"	)
 xOrd	[ 0	locks=0 ]	(	"srt"	)
 rOrd	[ 0	locks=0 ]	(	"xyz"	)
 t	[ 0	locks=0 ]	(	0	0	0	)
-r	[ 8	locks=0 ]	(	0	[ ry	127 ] 	0	)
+r	[ 8	locks=0 ]	(	0	[ ry	1 ] 	0	)
 s	[ 0	locks=0 ]	(	1	1	1	)
 shear	[ 0	locks=0 ]	(	0	0	0	)
 scale	[ 0	locks=0 ]	(	2.7400000000000002	)
@@ -4124,471 +3731,12 @@ Content-Type: text/plain
 }
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/transform2.init"
-Content-Type: text/plain
-
-type = xform
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/transform2.def"
-Content-Type: text/plain
-
-sopflags sopflags = 
-comment ""
-position -5.7483 -1.59712
-connectornextid 1
-flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
-outputsNamed3
-{
-}
-inputsNamed3
-{
-0 	transform1 1 1 "input1"
-}
-inputs
-{
-0 	transform1 0 1
-}
-override
-{
-../motionfx/wave_add1 t 1
-}
-stat
-{
-  create 1614729790
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/transform2.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-group	[ 0	locks=0 ]	(	""	)
-grouptype	[ 0	locks=0 ]	(	"guess"	)
-xOrd	[ 0	locks=0 ]	(	"srt"	)
-rOrd	[ 0	locks=0 ]	(	"xyz"	)
-t	[ 0	locks=0 ]	(	0	0	0	)
-r	[ 0	locks=0 ]	(	0	0	0	)
-s	[ 0	locks=0 ]	(	1	1	1	)
-shear	[ 0	locks=0 ]	(	0	0	0	)
-scale	[ 0	locks=0 ]	(	1	)
-parmgroup_pivotxform	[ 0	locks=0 ]	(	0	)
-p	[ 0	locks=0 ]	(	0	0	0	)
-pr	[ 0	locks=0 ]	(	0	0	0	)
-parmgroup_prexform	[ 0	locks=0 ]	(	0	)
-prexform_xOrd	[ 0	locks=0 ]	(	"srt"	)
-prexform_rOrd	[ 0	locks=0 ]	(	"xyz"	)
-prexform_t	[ 0	locks=0 ]	(	0	0	0	)
-prexform_r	[ 0	locks=0 ]	(	0	0	0	)
-prexform_s	[ 0	locks=0 ]	(	1	1	1	)
-prexform_shear	[ 0	locks=0 ]	(	0	0	0	)
-movecentroid	[ 0	locks=0 ]	(	0	)
-attribs	[ 0	locks=0 ]	(	*	)
-updatenmls	[ 0	locks=0 ]	(	"off"	)
-updateaffectednmls	[ 0	locks=0 ]	(	"on"	)
-vlength	[ 0	locks=0 ]	(	"on"	)
-invertxform	[ 0	locks=0 ]	(	"off"	)
-addattrib	[ 0	locks=0 ]	(	"off"	)
-outputattrib	[ 0	locks=0 ]	(	xform	)
-outputmerge	[ 0	locks=0 ]	(	"post"	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/transform2.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx.init"
-Content-Type: text/plain
-
-type = chopnet
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx.def"
-Content-Type: text/plain
-
-comment ""
-position -4.0539 -2.49132
-connectornextid 0
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
-outputsNamed3
-{
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create 1614729797
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.67 0.4 0.25 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_transform2_clip1.init"
-Content-Type: text/plain
-
-type = channel
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_transform2_clip1.def"
-Content-Type: text/plain
-
-comment ""
-position -1.6944 1.7884
-connectornextid 1
-flags =  lock off model off template off footprint off xray off bypass off display off render on highlight off unload off savedata off compress on colordefault on exposed on audio on export off
-outputsNamed3
-{
-0 "output1"
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create 1614729797
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_transform2_clip1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-stdswitcher	[ 0	locks=0 ]	(	0	0	0	)
-showall	[ 0	locks=0 ]	(	"on"	)
-copytoexport	[ 0	locks=0 ]	(	0	)
-copyfromexport	[ 0	locks=0 ]	(	0	)
-updatealiases	[ 0	locks=0 ]	(	0	)
-sort	[ 0	locks=0 ]	(	0	)
-resetall	[ 0	locks=0 ]	(	0	)
-keypersample	[ 0	locks=0 ]	(	"off"	)
-adddeps	[ 0	locks=0 ]	(	"on"	)
-numchannels	[ 0	locks=0 ]	(	1	)
-range	[ 0	locks=0 ]	(	"value"	)
-start	[ 0	locks=0 ]	(	0	)
-end	[ 0	locks=0 ]	(	10	)
-rate	[ 0	locks=0 ]	(	24	)
-left	[ 0	locks=0 ]	(	"hold"	)
-right	[ 0	locks=0 ]	(	"hold"	)
-defval	[ 0	locks=0 ]	(	0	)
-scope	[ 0	locks=0 ]	(	*	)
-srselect	[ 0	locks=0 ]	(	"max"	)
-units	[ 0	locks=0 ]	(	"frames"	)
-timeslice	[ 0	locks=0 ]	(	"off"	)
-unload	[ 0	locks=0 ]	(	"off"	)
-export	[ 0	locks=0 ]	(	../..	)
-gcolor	[ 0	locks=0 ]	(	0	0.44999998807907104	0.89999997615814209	)
-gcolorstep	[ 0	locks=0 ]	(	0.050000000000000003	)
-enable0	[ 0	locks=0 ]	(	"on"	)
-name0	[ 0	locks=0 ]	(	transform2:ty	)
-type0	[ 0	locks=0 ]	(	"float"	)
-rOrd0	[ 0	locks=0 ]	(	"xyz"	)
-size0	[ 0	locks=0 ]	(	1	)
-value0	[ 0	locks=0	autoscope=14	autosel=4294967295 ]	(	0	0	0	0	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_transform2_clip1.alias"
-Content-Type: text/plain
-
-chalias
-{
-	value0x ty
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_transform2_clip1.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_transform2_clip1.chop"
-Content-Type: text/plain
-
-5
-2
-0
-0
-1
-0
-0
-0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave1.init"
-Content-Type: text/plain
-
-type = wave
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave1.def"
-Content-Type: text/plain
-
-comment ""
-position 0 0.8942
-connectornextid 1
-flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on audio off export off
-outputsNamed3
-{
-0 "output1"
-}
-inputsNamed3
-{
-}
-inputs
-{
-}
-stat
-{
-  create 1614729797
-  modify 1614729829
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-stdswitcher	[ 0	locks=0 ]	(	0	0	0	)
-wavetype	[ 0	locks=0 ]	(	"sin"	)
-period	[ 0	locks=0 ]	(	1	)
-phase	[ 0	locks=0 ]	(	0	)
-bias	[ 0	locks=0 ]	(	0	)
-offset	[ 0	locks=0 ]	(	0	)
-amp	[ 0	locks=0 ]	(	0.01	)
-decay	[ 0	locks=0 ]	(	0	)
-ramp	[ 0	locks=0 ]	(	0	)
-exprs	[ 0	locks=0 ]	(	0	)
-channelname	[ 0	locks=0 ]	(	"`run(\"chopls ../wave_transform2_clip1\")`"	)
-range	[ 0	locks=0 ]	(	"full"	)
-start	[ 0	locks=0 ]	(	0	)
-end	[ 0	locks=0 ]	(	10	)
-rate	[ 0	locks=0 ]	(	24	)
-left	[ 0	locks=0 ]	(	"cycle"	)
-right	[ 0	locks=0 ]	(	"cycle"	)
-defval	[ 0	locks=0 ]	(	0	)
-scope	[ 0	locks=0 ]	(	*	)
-srselect	[ 0	locks=0 ]	(	"max"	)
-units	[ 0	locks=0 ]	(	"seconds"	)
-timeslice	[ 0	locks=0 ]	(	"off"	)
-unload	[ 0	locks=0 ]	(	"off"	)
-export	[ 0	locks=0 ]	(	../..	)
-gcolor	[ 0	locks=0 ]	(	0	0	0.89999997615814209	)
-gcolorstep	[ 0	locks=0 ]	(	0.050000000000000003	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave1.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave1.chop"
-Content-Type: text/plain
-
-5
-2
-0
-0
-1
-0
-0
-0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_add1.init"
-Content-Type: text/plain
-
-type = math
-matchesdef = 0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_add1.def"
-Content-Type: text/plain
-
-comment ""
-position -1.6944 0
-connectornextid 2
-flags =  lock off model off template off footprint off xray off bypass off display on render off highlight off unload off savedata off compress on colordefault on exposed on audio off export on
-outputsNamed3
-{
-}
-inputsNamed3
-{
-0 	wave_transform2_clip1 0 1 "input1"
-1 	wave1 0 1 "input2"
-}
-inputs
-{
-0 	wave_transform2_clip1 0 1
-1 	wave1 0 1
-}
-stat
-{
-  create 1614729797
-  modify 1614729826
-  author Vasil@DESKTOP-JBTROST
-  access 0777
-}
-color UT_Color RGB 0.8 0.8 0.8 
-delscript ""
-exprlanguage hscript
-end
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_add1.parm"
-Content-Type: text/plain
-
-{
-version 0.8
-stdswitcher	[ 0	locks=0 ]	(	0	0	0	0	)
-preop	[ 0	locks=0 ]	(	"off"	)
-chanop	[ 0	locks=0 ]	(	"off"	)
-chopop	[ 0	locks=0 ]	(	"add"	)
-postop	[ 0	locks=0 ]	(	"off"	)
-match	[ 0	locks=0 ]	(	"index"	)
-matchfailure	[ 0	locks=0 ]	(	"ignore"	)
-align	[ 0	locks=0 ]	(	"none"	)
-preoff	[ 0	locks=0 ]	(	0	)
-gain	[ 0	locks=0 ]	(	1	)
-postoff	[ 0	locks=0 ]	(	0	)
-fromrange	[ 0	locks=0 ]	(	0	1	)
-torange	[ 0	locks=0 ]	(	0	1	)
-scope	[ 0	locks=0 ]	(	*	)
-srselect	[ 0	locks=0 ]	(	"max"	)
-units	[ 0	locks=0 ]	(	"seconds"	)
-timeslice	[ 0	locks=0 ]	(	"off"	)
-unload	[ 0	locks=0 ]	(	"off"	)
-export	[ 0	locks=0 ]	(	../..	)
-gcolor	[ 0	locks=0 ]	(	0.44999998807907104	0	0.89999997615814209	)
-gcolorstep	[ 0	locks=0 ]	(	0.050000000000000003	)
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_add1.userdata"
-Content-Type: text/plain
-
-{
-	"___Version___":{
-		"type":"string",
-		"value":"18.5.408"
-	}
-}
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx/wave_add1.chop"
-Content-Type: text/plain
-
-5
-2
-0
-0
-1
-0
-0
-0
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx.order"
-Content-Type: text/plain
-
-3
-wave_transform2_clip1
-wave1
-wave_add1
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
-Content-Disposition: attachment; filename="obj/brocolli/motionfx.net"
-Content-Type: text/plain
-
-1
-
---HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/brocolli.order"
 Content-Type: text/plain
 
-4
+2
 file1
 transform1
-transform2
-motionfx
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
 Content-Disposition: attachment; filename="obj/brocolli.net"
@@ -4919,7 +4067,7 @@ inputs
 stat
 {
   create 1614718792
-  modify 1614729827
+  modify 1614729263
   author hrist@MEN7ALX
   access 0777
 }
@@ -5373,18 +4521,17 @@ viewposteffects  -D off -B off -t "" -f off -V off -S on -a 1 -b 5 -F 1 -g 1 -c 
 viewsnapshotoption -s off -h off -a 1 -v '*' -m 0 Build.panetab1.world
 cplane -o 0 0 0 -n 4.37114e-08 1 -4.37114e-08 -x 1.91069e-15 4.37114e-08 1 -l n -s 0.1 0.1 -c 40 40 -r 10 10 -d off Build.panetab1.world
 glcache -t 1634 -v 6553
-panepath -d Build -f -p panetab14 /obj/brocolli/motionfx/wave1
-panepath -d Build -f -p panetab1 /obj/brocolli/motionfx/wave1
-panepath -d Build -f -p panetab2 /obj/brocolli/motionfx/wave1
-panepath -d Build -f -p panetab3 /obj/brocolli/motionfx/wave1
-panepath -d Build -f -p panetab13 /obj/brocolli/motionfx/wave1
-panepath -d Build -f -p panetab11 /obj/brocolli/motionfx/wave1
-panepath -d Build -f -p panetab5 /obj/brocolli/motionfx/wave1
-panepath -d Build -f -p panetab6 /obj/brocolli/motionfx/wave1
+panepath -d Build -f -p panetab14 /obj/brocolli
+panepath -d Build -f -p panetab1 /obj/brocolli
+panepath -d Build -f -p panetab2 /obj/brocolli
+panepath -d Build -f -p panetab3 /obj/brocolli
+panepath -d Build -f -p panetab11 /obj/brocolli
+panepath -d Build -f -p panetab5 /obj/brocolli
+panepath -d Build -f -p panetab6 /obj/brocolli
 panepath -d Build -f -p panetab12 /obj/
-panepath -d Build -f -p panetab7 /obj/brocolli/motionfx/wave1
+panepath -d Build -f -p panetab7 /obj/brocolli
 panepath -d Build -f -p panetab8 /obj/
-panepath -d Build -f -p panetab9 /obj/brocolli/motionfx/wave1
+panepath -d Build -f -p panetab9 /obj/brocolli
 panepath -d Build -f -p panetab10 /obj/
 desk set Build
 radial menu set main
@@ -5408,16 +4555,16 @@ audiopanel -a ''
 audiopanel -f 1
 audiopanel -O 0
 colorsettings -D -A -g 2.2 -l "" -p -s -v -i -r -c -f
-omparm "Follow Path" followpath /obj/frying_pan "invisible(1)"
 omparm "Follow Path" followpath /obj/brocolli "invisible(1)"
+omparm "Follow Path" followpath /obj/frying_pan "invisible(1)"
 compproject -r 1920 1080 -a 1 -d fp16 -p 0 1 -P full -f 0 -F 0 -l on
 texcache  -a off -r 2147483647 2147483647 -m 10000 -M 4085
 shopvisible +I3D +VMantra +RIB
 alias -u '__sesi_license__' '{
-verification_id      681d81e2
-license_id           00000000043F8A80
-lock			dhhqOQkDyLa39xjRN2+d6wJPeMvTC7vYJhbueB2h7kk2BE1Yht3KW1+4usKnIuSj+DomrX9YTluaaD
-data			000000010000000100000012000000052002077465DESKTOP-JBTROST*.*.*.*681d81e2
+verification_id      1b075173
+license_id           00000000043F8A10
+lock			HAw0At0m5a+@H9escN4NrZaw3JrDUmxSw2fOr529fNX4nwFDMvoWfaWiNuG9DIVBeEpAqRQdlv5Hi5
+data			000000010000000100000012000000052002077465MEN7ALX*.*.*.*1b075173
 product_id           Houdini-Master
 server_platform      Generic
 support_expiry       2028-12-25
@@ -5425,7 +4572,7 @@ houdini_version      18005
 available            199
 count                200
 ip_mask              *.*.*.*
-display              DESKTOP-JBTROST 0/1
+display              MEN7ALX 0/1
 }'
 
 --HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
